@@ -36,4 +36,30 @@ void mainOperator() {
   // += -= *= /= ~/ %=
   num1 += 5;
   print(num1);
+
+  // relational operator => perlu 2 buah operand & dibandingkan apakah true/false
+  // cth: == != > < >= <=
+  bool result3;
+  // result3 = 5 < 3;
+  result3 = 5 <= 5;
+  print(result3);
+
+  // logical operator => mengoperasikan 1/bbrpa nilai boolean jdi nilai boolean baru
+  // cth: && || !
+  // operator AND dulu, trs operator OR yg dieksekusi
+  // urutan(precedence) => ! => ++,-- => * / ~/ %  => + - => < <= > >= => == != => && => ||
+  bool result4;
+  // result4 = true || false;
+  result4 = (9 != 9) || ((2 < 5) && (9 > 10));
+  print(result4);
+
+  // expression => sgala sesuatu yg dpt dievaluasi jdi sebuah nilai
+  // simple expression => var, constants(literal, symbolic)
+  // literal => nyatakan scara langsung
+  // symbolic => kontanta simbolik yg diberi nama
+  // complex expression => expression sderhana yg dikoneksikan dg operator
+
+  // 5; // konstanta
+  int numb3 = 5; //operator sederhana(variable)
+  print(numb3 + 10); //operator complex (2 buah expression sdrhana yg digabungkan)
 }
