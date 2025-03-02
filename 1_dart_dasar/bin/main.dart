@@ -2,10 +2,12 @@
 // import '4_operator_expression.dart';
 // import '5_number.dart';
 import '6_null-safety.dart';
+import '7_if_conditional.dart';
 
 void main() {
   // mainInputan();
   // mainOperator();
   // mainNumber();
   mainNullSafety();
+  mainIfConditional();
 }
