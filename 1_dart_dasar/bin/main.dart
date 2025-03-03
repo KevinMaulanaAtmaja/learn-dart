@@ -4,6 +4,7 @@
 import '6_null-safety.dart';
 import '7_if_conditional.dart';
 import '8_switch.dart';
+import '9_string.dart';
 
 void main() {
   // mainInputan();
@@ -12,4 +13,5 @@ void main() {
   mainNullSafety();
   mainIfConditional();
   mainSwitch();
+  mainString();
 }
