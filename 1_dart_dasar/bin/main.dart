@@ -10,6 +10,7 @@ import '11_fungsi.dart';
 import '12_opt_named-param.dart';
 import '13_arrow-func.dart';
 import '14_list.dart';
+import '15_map.dart';
 
 void main() {
   // mainInputan();
@@ -24,4 +25,5 @@ void main() {
   mainOptParam();
   mainArrowFunc();
   mainList();
+  mainMap();
 }
