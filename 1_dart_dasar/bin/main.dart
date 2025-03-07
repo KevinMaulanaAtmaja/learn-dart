@@ -6,6 +6,7 @@ import '7_if_conditional.dart';
 import '8_switch.dart';
 import '9_string.dart';
 import '10_loop.dart';
+import '11_fungsi.dart';
 
 void main() {
   // mainInputan();
@@ -16,4 +17,5 @@ void main() {
   mainSwitch();
   mainString();
   mainLoop();
+  mainFungsi();
 }

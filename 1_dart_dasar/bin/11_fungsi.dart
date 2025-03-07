@@ -1,4 +1,4 @@
-void main() {
+void mainFungsi() {
   // fungsi => utk melakukan suatu tugas trntu(spesifik)
   // fungsi bisa bertipe void dan non-void(string,int,double,bool)
 
