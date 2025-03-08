@@ -12,6 +12,7 @@
 // import '14_list.dart';
 // import '15_map.dart';
 import '16_mapping.dart';
+import '17_record.dart';
 
 void main() {
   // mainInputan();
@@ -28,4 +29,5 @@ void main() {
   // mainList();
   // mainMap();
   mainMapping();
+  mainRecord();
 }
