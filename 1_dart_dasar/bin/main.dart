@@ -13,6 +13,7 @@
 // import '15_map.dart';
 import '16_mapping.dart';
 import '17_record.dart';
+import '18_duration.dart';
 
 void main() {
   // mainInputan();
@@ -30,4 +31,5 @@ void main() {
   // mainMap();
   mainMapping();
   mainRecord();
+  mainDuration();
 }
