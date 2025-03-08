@@ -6,11 +6,12 @@
 // import '8_switch.dart';
 // import '9_string.dart';
 // import '10_loop.dart';
-import '11_fungsi.dart';
-import '12_opt_named-param.dart';
-import '13_arrow-func.dart';
-import '14_list.dart';
-import '15_map.dart';
+// import '11_fungsi.dart';
+// import '12_opt_named-param.dart';
+// import '13_arrow-func.dart';
+// import '14_list.dart';
+// import '15_map.dart';
+import '16_mapping.dart';
 
 void main() {
   // mainInputan();
@@ -21,9 +22,10 @@ void main() {
   // mainSwitch();
   // mainString();
   // mainLoop();
-  mainFungsi();
-  mainOptParam();
-  mainArrowFunc();
-  mainList();
-  mainMap();
+  // mainFungsi();
+  // mainOptParam();
+  // mainArrowFunc();
+  // mainList();
+  // mainMap();
+  mainMapping();
 }
