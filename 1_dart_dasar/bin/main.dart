@@ -15,6 +15,7 @@ import '16_mapping.dart';
 import '17_record.dart';
 import '18_duration.dart';
 import '19_var.dart';
+import '20_pattern.dart';
 
 void main() {
   // mainInputan();
@@ -34,4 +35,5 @@ void main() {
   mainRecord();
   mainDuration();
   mainVar();
+  mainPattern();
 }
