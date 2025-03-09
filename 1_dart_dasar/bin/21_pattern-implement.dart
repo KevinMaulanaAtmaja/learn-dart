@@ -1,5 +1,8 @@
-void main() {
+import 'dart:math';
+
+void mainPatternImp() {
   print("======PATTERN-IMPLEMENT======");
+  print("======VARIABLE-DECLARATION & ASSIGNMENT======");
   // pattern implement => implementasi trhadap pola trtentu
   String name = "Kevin";
   int age = 19;
@@ -29,6 +32,37 @@ void main() {
   (name, age) = getDataUser();
   // print("Name ${data.$1}, Age ${data.$2}");
   print("Name $name, Age $age");
+
+  print("======SWITCH & IF-IMPLEMENTATION=======");
+  // harus sama persis jumlah elemennya
+  var value = getSomething();
+
+  print(value);
+  switch (value) {
+    case (String name, int age):
+      print("Name $name, Age $age");
+      break;
+    case [int first, int second]:
+      print("First $first, Second $second");
+      break;
+    case _:
+      print("Unknown");
+      break;
+  }
+
+  if (value case (String name, int age)) {
+    print("Name $name, Age $age");
+  } else if (value case [int first, int second]) {
+    print("First $first, Second $second");
+  } else {
+    print("Unknown");
+  }
 }
 
 (String, int) getDataUser() => ("Kevin", 19);
+
+dynamic getSomething() => switch (Random().nextInt(3)) {
+      0 => ("Kevin", 19),
+      1 => [1, 2],
+      _ => "anything"
+    };

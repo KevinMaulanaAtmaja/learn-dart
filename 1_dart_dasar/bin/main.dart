@@ -11,11 +11,12 @@
 // import '13_arrow-func.dart';
 // import '14_list.dart';
 // import '15_map.dart';
-import '16_mapping.dart';
-import '17_record.dart';
-import '18_duration.dart';
-import '19_var.dart';
-import '20_pattern.dart';
+// import '16_mapping.dart';
+// import '17_record.dart';
+// import '18_duration.dart';
+// import '19_var.dart';
+// import '20_pattern.dart';
+import '21_pattern-implement.dart';
 
 void main() {
   // mainInputan();
@@ -31,9 +32,10 @@ void main() {
   // mainArrowFunc();
   // mainList();
   // mainMap();
-  mainMapping();
-  mainRecord();
-  mainDuration();
-  mainVar();
-  mainPattern();
+  // mainMapping();
+  // mainRecord();
+  // mainDuration();
+  // mainVar();
+  // mainPattern();
+  mainPatternImp();
 }
