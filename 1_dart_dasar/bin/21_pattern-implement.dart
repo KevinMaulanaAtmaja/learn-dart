@@ -57,6 +57,66 @@ void mainPatternImp() {
   } else {
     print("Unknown");
   }
+
+  print("=====DESTRUCTURING-MAP======");
+
+  Map<String, dynamic> carData = {
+    "brand": "Ford",
+    "model": "Mustang",
+    "year": 1964,
+  };
+  // String brand = carData["brand"];
+  // String model = carData["model"];
+  // int year = carData["year"];
+  // versi destructuring
+  var {"brand": brand, "model": model, "year": year} = carData;
+  // var {"brand": brand, "model": model, "year": year, "color": color} = carData; //error jika asal destructuring
+
+  print("Brand $brand, Model $model, Year $year");
+
+  List<Map<String, dynamic>> carDatas = [
+    {
+      "brand": "Ford",
+      "model": "Mustang",
+      "year": 1964,
+    },
+    {
+      "brand": "Honda",
+      "model": "Civic",
+      "year": 2000,
+    },
+    {
+      "brand": "Toyota",
+      "model": "Corolla",
+      "year": 1995,
+    },
+  ];
+
+  for (var {"brand": brand, "model": model} in carDatas) {
+    // for (var data in carDatas) {
+    // String brand = data["brand"];
+    // String model = data["model"];
+    print("Brand $brand, Model $model");
+  }
+
+  print("=============");
+  var result = callApi();
+
+  if (result.containsKey("name") && result.containsKey("email")) {
+    String name = result["name"];
+    String email = result["email"];
+    print("Name: $name, Email: $email");
+  } else {
+    print("Data not found");
+  }
+
+  // versi destructuring
+  if (result
+      case {"name": final name, "email": final email, "age": final age}) {
+    print("Name: $name, Email: $email, Age: $age");
+  } else {
+    print("Data not found");
+  }
 }
 
 (String, int) getDataUser() => ("Kevin", 19);
@@ -66,3 +126,6 @@ dynamic getSomething() => switch (Random().nextInt(3)) {
       1 => [1, 2],
       _ => "anything"
     };
+
+Map<String, dynamic> callApi() =>
+    {"name": "Kevin", "age": 19, "email": "kevin@gmail.com"};
