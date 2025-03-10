@@ -17,6 +17,7 @@
 // import '19_var.dart';
 // import '20_pattern.dart';
 import '21_pattern-implement.dart';
+import '22_digit_separator.dart';
 
 void main() {
   // mainInputan();
@@ -38,4 +39,5 @@ void main() {
   // mainVar();
   // mainPattern();
   mainPatternImp();
+  mainDigit();
 }
