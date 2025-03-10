@@ -138,6 +138,7 @@ void mainPatternImp() {
   var list = getList();
   var list2 = getList2();
   var list3 = getList3();
+  var list4 = getList4();
 
   switch (list) {
     case [int a, int b]:
@@ -162,6 +163,30 @@ void mainPatternImp() {
   } else {
     print("List with less than 4 elements");
   }
+
+  print("=====WILDCARD-PATTERN=======");
+  switch (list4) {
+    case [int a, int b]:
+      print("List with to integers: $a, $b");
+    case [String a, int b]:
+      print("List with a string and an integer: $a, $b");
+    // sbgai pengecek tipe data aja(ga dipake destructuringnya)
+    case [String _, String _]:
+      print("List with two strings");
+    case [var a, var b]:
+      print("List with two variables: $a, $b");
+    // default:
+    //   print("Unknown list");
+    // wildcard sbgai pengganti default
+    case _:
+      print("Something else");
+  }
+  print("=============");
+  // langung dibuang jik pake wildcard
+  // if (list2 case [var first, var second, var third, ...]) {
+  if (list2 case [var _, var _, var third, ...]) {
+    print("Third element: $third");
+  }
 }
 
 (String, int) getDataUser() => ("Kevin", 19);
@@ -184,3 +209,4 @@ List getList() =>
 
 List getList2() => [1, 2, 3, 4, 5, 6, 7, 8, 9];
 List getList3() => [1, 2, 3];
+List getList4() => ["Haloo", "Ju FUFu"];
