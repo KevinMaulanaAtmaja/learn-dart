@@ -60,7 +60,6 @@ void mainPatternImp() {
   }
 
   print("=====DESTRUCTURING-MAP======");
-
   Map<String, dynamic> carData = {
     "brand": "Ford",
     "model": "Mustang",
@@ -134,6 +133,35 @@ void mainPatternImp() {
     default:
       print("Number greater than 100");
   }
+
+  print("======LIST-PATTERN & REST-ELEMENT========");
+  var list = getList();
+  var list2 = getList2();
+  var list3 = getList3();
+
+  switch (list) {
+    case [int a, int b]:
+      print("List with to integers: $a, $b");
+    case [String a, int b]:
+      print("List with a string and an integer: $a, $b");
+    case [var a, var b]:
+      print("List with two variables: $a, $b");
+    default:
+      print("Unknown list");
+  }
+
+  // list destructuring & rest element
+  var [first, second, third, ...others, last] = list2;
+  print("First: $first, Second: $second, Third: $third, Last: $last");
+  print("Others: $others");
+
+  print("============");
+  if (list3 case [var first, var second, var third, ...var others, var last]) {
+    print("First: $first, Second: $second, Third: $third, Last: $last");
+    print("Others: $others");
+  } else {
+    print("List with less than 4 elements");
+  }
 }
 
 (String, int) getDataUser() => ("Kevin", 19);
@@ -146,3 +174,13 @@ dynamic getSomething() => switch (Random().nextInt(3)) {
 
 Map<String, dynamic> callApi() =>
     {"name": "Kevin", "age": 19, "email": "kevin@gmail.com"};
+
+List getList() =>
+// [1, 2]
+// ["1", 2]
+    ["1", "2"]
+    // [1, 2, 3]
+    ;
+
+List getList2() => [1, 2, 3, 4, 5, 6, 7, 8, 9];
+List getList3() => [1, 2, 3];
