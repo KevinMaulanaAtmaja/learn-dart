@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'dart:math';
 
 void mainPatternImp() {
@@ -116,6 +117,22 @@ void mainPatternImp() {
     print("Name: $name, Email: $email, Age: $age");
   } else {
     print("Data not found");
+  }
+
+  print("======LOGICAL & RELATIONAL-PATTERN=======");
+  int? number1 = int.tryParse(stdin.readLineSync() ?? "0");
+
+  // urutan pengerjaan
+  // logical operator(&&) dulu baru relational operator(>, <=)
+  // pake tanda kurung biar dieksekusi dulu
+  // (&&) dulu baru (||) dan dari kiri ke kanan pengerjaannya
+  switch (number1) {
+    case null || < 0:
+      print("Null or negative number");
+    case >= 0 && <= 100:
+      print("Number between 0 and 100");
+    default:
+      print("Number greater than 100");
   }
 }
 
