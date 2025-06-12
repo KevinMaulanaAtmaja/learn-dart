@@ -1,10 +1,8 @@
-import 'dart:io';
+import '1_inputan.dart';
+import '2_percabangan.dart';
 
 void main() {
-  String input = stdin.readLineSync()!;
-  int number = int.tryParse(input)!;
-  // double doubleNum = int.parse(input);
   print("Hello world");
-  // print(input);
-  print(number + 9);
+  mainInputan();
+  mainPercabangan();
 }
