@@ -3,6 +3,7 @@ import 'dart:io';
 void mainPercabangan() {
   int number = int.parse(stdin.readLineSync()!);
 
+  // if, else if, else
   if (number > 0) {
     print("positif");
   } else if (number == 0) {
@@ -11,8 +12,10 @@ void mainPercabangan() {
     print("negatif");
   }
 
+  // ternary
   print(number > 0 ? "positif" : "negatif atau nol");
 
+  // switch
   switch (number) {
     case 0:
       print("nol");
