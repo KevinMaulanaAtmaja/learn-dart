@@ -1,10 +1,13 @@
 import 'dart:io';
 
-void main() {
+void mainClass() {
+  print("=====PROSEDURAL=======");
   prosedural();
 
   PersegiPanjang kotak1, kotak2;
   double luasKotak1;
+
+  print("======CLASS & OBJECT======");
   kotak1 = new PersegiPanjang();
   kotak1.panjang = 10.0;
   kotak1.lebar = 5.0;
@@ -12,7 +15,7 @@ void main() {
   luasKotak1 = kotak1.hitungLuas();
   print(luasKotak1);
 
-  // tdk perlu nulis keyword new (rekomendasi)
+  print("============");
   kotak2 = PersegiPanjang();
   kotak2.panjang = double.tryParse(stdin.readLineSync()!);
   kotak2.lebar = double.tryParse(stdin.readLineSync()!);
