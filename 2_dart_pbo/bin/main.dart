@@ -5,6 +5,8 @@
 // import '5_list.dart';
 import '6_class-object.dart';
 import '7_enkapsulasi.dart';
+import '8_inheritance.dart';
+import '9_abtract-interface.dart';
 
 void main() {
   print("Hello world");
@@ -15,4 +17,6 @@ void main() {
   // mainList();
   mainClass();
   mainEnkap();
+  mainIheritance();
+  mainAbstractInterface();
 }
