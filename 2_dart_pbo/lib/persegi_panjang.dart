@@ -6,7 +6,7 @@ class PersegiPanjang {
   // getter & setter property
   double get panjang => _panjang!;
 
-  void set panjang(double value) {
+  set panjang(double value) {
     if (value < 0) {
       value *= -1;
     }
@@ -16,7 +16,7 @@ class PersegiPanjang {
   // getter & setter method
   double getLebar() => _lebar!;
 
-  void setLebar(double value) {
+  setLebar(double value) {
     if (value < 0) {
       value *= -1;
     }

@@ -1,12 +1,12 @@
 import 'dart:io';
-import '../lib/persegi_panjang.dart';
+import 'package:dart_pbo/persegi_panjang.dart';
 
 void mainEnkap() {
   PersegiPanjang kotak1, kotak2;
   double luasKotak1;
 
   print("=====ENKAPSULASI=======");
-  kotak1 = new PersegiPanjang();
+  kotak1 = PersegiPanjang();
   // setter property
   kotak1.panjang = 10.0;
   // setter method
