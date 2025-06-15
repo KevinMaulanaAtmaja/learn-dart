@@ -7,6 +7,7 @@ import '6_class-object.dart';
 import '7_enkapsulasi.dart';
 import '8_inheritance.dart';
 import '9_abtract-interface.dart';
+import '10_mixin.dart';
 
 void main() {
   print("Hello world");
@@ -19,4 +20,5 @@ void main() {
   mainEnkap();
   mainIheritance();
   mainAbstractInterface();
+  mainMixin();
 }
