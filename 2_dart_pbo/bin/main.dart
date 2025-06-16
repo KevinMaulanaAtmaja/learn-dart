@@ -10,6 +10,7 @@
 // import '10_mixin.dart';
 import '11_constructor.dart';
 import '12_param-underscore.dart';
+import '13_static.dart';
 
 void main() {
   print("Hello world");
@@ -25,4 +26,5 @@ void main() {
   // mainMixin();
   mainCons();
   mainParamUnder();
+  mainStatic();
 }
