@@ -3,11 +3,12 @@
 // import '3_perulangan.dart';
 // import '4_fungsi.dart';
 // import '5_list.dart';
-import '6_class-object.dart';
-import '7_enkapsulasi.dart';
-import '8_inheritance.dart';
-import '9_abtract-interface.dart';
-import '10_mixin.dart';
+// import '6_class-object.dart';
+// import '7_enkapsulasi.dart';
+// import '8_inheritance.dart';
+// import '9_abtract-interface.dart';
+// import '10_mixin.dart';
+import '11_constructor.dart';
 
 void main() {
   print("Hello world");
@@ -16,9 +17,10 @@ void main() {
   // mainPerulangan();
   // mainFungsi();
   // mainList();
-  mainClass();
-  mainEnkap();
-  mainIheritance();
-  mainAbstractInterface();
-  mainMixin();
+  // mainClass();
+  // mainEnkap();
+  // mainIheritance();
+  // mainAbstractInterface();
+  // mainMixin();
+  mainCons();
 }
