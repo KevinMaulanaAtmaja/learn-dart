@@ -12,6 +12,7 @@ import '11_constructor.dart';
 import '12_param-underscore.dart';
 import '13_static.dart';
 import '14_async.dart';
+import '15_final-const.dart';
 
 void main() {
   print("Hello world");
@@ -29,4 +30,5 @@ void main() {
   mainParamUnder();
   mainStatic();
   mainAsync();
+  mainFinalConst();
 }
