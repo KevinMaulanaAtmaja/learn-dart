@@ -8,11 +8,13 @@
 // import '8_inheritance.dart';
 // import '9_abtract-interface.dart';
 // import '10_mixin.dart';
-import '11_constructor.dart';
-import '12_param-underscore.dart';
-import '13_static.dart';
-import '14_async.dart';
-import '15_final-const.dart';
+// import '11_constructor.dart';
+// import '12_param-underscore.dart';
+// import '13_static.dart';
+// import '14_async.dart';
+// import '15_final-const.dart';
+import '16_generic.dart';
+import '17_enum-cascade.dart';
 
 void main() {
   print("Hello world");
@@ -26,9 +28,11 @@ void main() {
   // mainIheritance();
   // mainAbstractInterface();
   // mainMixin();
-  mainCons();
-  mainParamUnder();
-  mainStatic();
-  mainAsync();
-  mainFinalConst();
+  // mainCons();
+  // mainParamUnder();
+  // mainStatic();
+  // mainAsync();
+  // mainFinalConst();
+  mainGeneric();
+  mainEnum();
 }

@@ -1,4 +1,5 @@
-void main() {
+void mainGeneric() {
+  print("======GENERIC======");
   var boxInt = SecureBox<int>(0907, "123");
   var boxString = SecureBox<String>("data zzz, takopi's original sin", "456");
   var boxDate = SecureBox<DateTime>(DateTime.now(), "789");
