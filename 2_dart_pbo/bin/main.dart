@@ -11,6 +11,7 @@
 import '11_constructor.dart';
 import '12_param-underscore.dart';
 import '13_static.dart';
+import '14_async.dart';
 
 void main() {
   print("Hello world");
@@ -27,4 +28,5 @@ void main() {
   mainCons();
   mainParamUnder();
   mainStatic();
+  mainAsync();
 }
