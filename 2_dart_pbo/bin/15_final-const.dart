@@ -34,7 +34,7 @@ class RegularClass {
 
   RegularClass({this.number}) {
     // local-level variable
-    const anotherConst = 22 / 7;
+    // const anotherConst = 22 / 7;
 
     // bisa akses top-level var dsini
     // print(phi);
