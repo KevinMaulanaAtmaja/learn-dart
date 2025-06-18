@@ -15,6 +15,7 @@
 // import '15_final-const.dart';
 import '16_generic.dart';
 import '17_enum-cascade.dart';
+import '18_required.dart';
 
 void main() {
   print("Hello world");
@@ -35,4 +36,5 @@ void main() {
   // mainFinalConst();
   mainGeneric();
   mainEnum();
+  mainRequired();
 }
