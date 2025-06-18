@@ -1,4 +1,4 @@
-void main() {
+void mainForeach() {
   List<Person> listPerson = [
     Person("User", 33),
     Person("Admin", 23),
@@ -40,10 +40,10 @@ class Person {
     switch (role) {
       case "Merchant":
         return 1;
-        break;
+      // break;
       case "Admin":
         return 2;
-        break;
+      // break;
       default:
         return 3;
     }

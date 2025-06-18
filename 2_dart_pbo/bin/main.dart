@@ -16,6 +16,8 @@
 import '16_generic.dart';
 import '17_enum-cascade.dart';
 import '18_required.dart';
+import '19_foreach.dart';
+import '20_solid.dart';
 
 void main() {
   print("Hello world");
@@ -37,4 +39,6 @@ void main() {
   mainGeneric();
   mainEnum();
   mainRequired();
+  mainForeach();
+  mainSolid();
 }
