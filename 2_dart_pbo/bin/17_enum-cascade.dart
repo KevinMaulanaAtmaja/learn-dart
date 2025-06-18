@@ -5,7 +5,7 @@ void mainEnum() {
 
   print("=============");
   // posioned
-  MonsterUcoa m2 = MonsterUcoa(status: UcoaStatus.poisoned)
+  MonsterUcoa(status: UcoaStatus.poisoned)
     ..move()
     ..eat(); //cascade notation => utk memanggil method tnpa harus mmanggil obj
 
