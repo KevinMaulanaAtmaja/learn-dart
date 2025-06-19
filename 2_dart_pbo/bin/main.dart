@@ -21,6 +21,7 @@
 import '21_overriding.dart';
 import '22_singleton.dart';
 import '23_future-or.dart';
+import '24_dynamic-var.dart';
 
 void main() {
   print("Hello world");
@@ -47,4 +48,5 @@ void main() {
   mainOverriding();
   mainSingleton();
   mainFutureOr();
+  mainDynaVar();
 }
