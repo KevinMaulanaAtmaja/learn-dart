@@ -13,11 +13,12 @@
 // import '13_static.dart';
 // import '14_async.dart';
 // import '15_final-const.dart';
-import '16_generic.dart';
-import '17_enum-cascade.dart';
-import '18_required.dart';
-import '19_foreach.dart';
-import '20_solid.dart';
+// import '16_generic.dart';
+// import '17_enum-cascade.dart';
+// import '18_required.dart';
+// import '19_foreach.dart';
+// import '20_solid.dart';
+import '21_overriding.dart';
 
 void main() {
   print("Hello world");
@@ -36,9 +37,10 @@ void main() {
   // mainStatic();
   // mainAsync();
   // mainFinalConst();
-  mainGeneric();
-  mainEnum();
-  mainRequired();
-  mainForeach();
-  mainSolid();
+  // mainGeneric();
+  // mainEnum();
+  // mainRequired();
+  // mainForeach();
+  // mainSolid();
+  mainOverriding();
 }
