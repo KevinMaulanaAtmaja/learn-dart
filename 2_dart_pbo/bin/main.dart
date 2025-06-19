@@ -19,6 +19,7 @@
 // import '19_foreach.dart';
 // import '20_solid.dart';
 import '21_overriding.dart';
+import '22_singleton.dart';
 
 void main() {
   print("Hello world");
@@ -43,4 +44,5 @@ void main() {
   // mainForeach();
   // mainSolid();
   mainOverriding();
+  mainSingleton();
 }

@@ -8,6 +8,7 @@ void mainOverriding() {
   Hero e = Hero(20);
   Hero f = Hero(10);
 
+// override operator sperti +,-,==,> spya obj bisa seperti string/int saat digabungkan
   print(a + b);
   print(c + d);
   print("=============");
