@@ -1,4 +1,5 @@
 void mainSingleton() {
+  print("======SINGLETON======");
   Services services1 = Services();
   Services services2 = Services();
 

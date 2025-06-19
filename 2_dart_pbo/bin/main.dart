@@ -20,6 +20,7 @@
 // import '20_solid.dart';
 import '21_overriding.dart';
 import '22_singleton.dart';
+import '23_future-or.dart';
 
 void main() {
   print("Hello world");
@@ -45,4 +46,5 @@ void main() {
   // mainSolid();
   mainOverriding();
   mainSingleton();
+  mainFutureOr();
 }
