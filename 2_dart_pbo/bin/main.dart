@@ -23,6 +23,7 @@ import '22_singleton.dart';
 import '23_future-or.dart';
 import '24_dynamic-var.dart';
 import '25_super-init.dart';
+import '26_mixin-class.dart';
 
 void main() {
   print("Hello world");
@@ -51,4 +52,5 @@ void main() {
   mainFutureOr();
   mainDynaVar();
   mainSuperInit();
+  mainMixinClass();
 }
