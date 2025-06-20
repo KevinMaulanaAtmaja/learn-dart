@@ -18,12 +18,13 @@
 // import '18_required.dart';
 // import '19_foreach.dart';
 // import '20_solid.dart';
-import '21_overriding.dart';
-import '22_singleton.dart';
-import '23_future-or.dart';
-import '24_dynamic-var.dart';
-import '25_super-init.dart';
+// import '21_overriding.dart';
+// import '22_singleton.dart';
+// import '23_future-or.dart';
+// import '24_dynamic-var.dart';
+// import '25_super-init.dart';
 import '26_mixin-class.dart';
+import '27_final-class.dart';
 
 void main() {
   print("Hello world");
@@ -47,10 +48,11 @@ void main() {
   // mainRequired();
   // mainForeach();
   // mainSolid();
-  mainOverriding();
-  mainSingleton();
-  mainFutureOr();
-  mainDynaVar();
-  mainSuperInit();
+  // mainOverriding();
+  // mainSingleton();
+  // mainFutureOr();
+  // mainDynaVar();
+  // mainSuperInit();
   mainMixinClass();
+  mainFinalClass();
 }
