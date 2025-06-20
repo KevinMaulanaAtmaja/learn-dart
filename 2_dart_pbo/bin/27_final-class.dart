@@ -7,4 +7,3 @@ void mainFinalClass() {
   Person4 p4 = Person4("Anby Demara");
   p4.sayHello();
 }
- 
