@@ -29,6 +29,7 @@
 // import '29_base.dart';
 // import '30_unawaited-ignore.dart';
 import '31_then-onerror.dart';
+import '32_interface.dart';
 
 void main() {
   print("Hello world");
@@ -63,4 +64,5 @@ void main() {
   // mainBase();
   // mainUnawaited();
   mainThenOnError();
+  mainInterface();
 }
