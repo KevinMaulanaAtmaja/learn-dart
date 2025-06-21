@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:math';
 
 void mainUnawaited() async {
+  print("======UNAWAITED & IGNORE======");
   print("Previous statement(s)");
   // test
   // futureTask();

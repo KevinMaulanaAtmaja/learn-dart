@@ -23,11 +23,12 @@
 // import '23_future-or.dart';
 // import '24_dynamic-var.dart';
 // import '25_super-init.dart';
-import '26_mixin-class.dart';
-import '27_final-class.dart';
-import '28_sealed-class.dart';
-import '29_base.dart';
-import '30_unawaited-ignore.dart';
+// import '26_mixin-class.dart';
+// import '27_final-class.dart';
+// import '28_sealed-class.dart';
+// import '29_base.dart';
+// import '30_unawaited-ignore.dart';
+import '31_then-onerror.dart';
 
 void main() {
   print("Hello world");
@@ -56,9 +57,10 @@ void main() {
   // mainFutureOr();
   // mainDynaVar();
   // mainSuperInit();
-  mainMixinClass();
-  mainFinalClass();
-  mainSealed();
-  mainBase();
-  mainUnawaited();
+  // mainMixinClass();
+  // mainFinalClass();
+  // mainSealed();
+  // mainBase();
+  // mainUnawaited();
+  mainThenOnError();
 }
