@@ -27,6 +27,7 @@ import '26_mixin-class.dart';
 import '27_final-class.dart';
 import '28_sealed-class.dart';
 import '29_base.dart';
+import '30_unawaited-ignore.dart';
 
 void main() {
   print("Hello world");
@@ -59,4 +60,5 @@ void main() {
   mainFinalClass();
   mainSealed();
   mainBase();
+  mainUnawaited();
 }
