@@ -26,6 +26,7 @@
 import '26_mixin-class.dart';
 import '27_final-class.dart';
 import '28_sealed-class.dart';
+import '29_base.dart';
 
 void main() {
   print("Hello world");
@@ -57,4 +58,5 @@ void main() {
   mainMixinClass();
   mainFinalClass();
   mainSealed();
+  mainBase();
 }
