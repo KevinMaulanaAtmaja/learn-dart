@@ -30,6 +30,7 @@
 // import '30_unawaited-ignore.dart';
 import '31_then-onerror.dart';
 import '32_interface.dart';
+import '33_destructuring-obj.dart';
 
 void main() {
   print("Hello world");
@@ -65,4 +66,5 @@ void main() {
   // mainUnawaited();
   mainThenOnError();
   mainInterface();
+  mainDestruc();
 }
