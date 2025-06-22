@@ -31,6 +31,7 @@
 import '31_then-onerror.dart';
 import '32_interface.dart';
 import '33_destructuring-obj.dart';
+import '34_stream.dart';
 
 void main() {
   print("Hello world");
@@ -67,4 +68,5 @@ void main() {
   mainThenOnError();
   mainInterface();
   mainDestruc();
+  mainStream();
 }
